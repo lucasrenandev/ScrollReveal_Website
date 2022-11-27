@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #111222;
+}
+
+/* ==== MAIN ==== */
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+
+main .container .main-title {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+}
+
+main .container .content {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container .content .image {
+    width: 800px;
+    height: 400px;
+}
+
+main .container .content .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+main .container .content .text-box {
+    z-index: 100;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    backdrop-filter: blur(20px);
+    transform: translate(-80px, 40px);
+    border-radius: 10px;
+}
+
+main .container .content .text-box h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+main .container .content .text-box p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.25px;
+}
+
+main .container .media-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+main .container .media-icons li {
+    margin: 0 4rem;
+}
+
+main .container .media-icons li a {
+    color: #fff;
+    font-size: 2rem;
+}
+
+/* ==== SECTION 01 + SECTION 02 ==== */
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    color: #fff;
+    padding: 20px;
+}
+
+section .container .section-title {
+    font-size: 3rem;
+    margin-bottom: 4.5rem;
+}
+
+section .container .content {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container .content .image {
+    width: 800px;
+    height: 400px;
+}
+
+section .container .content .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+section .container .content .text-box {
+    max-width: 500px;
+    margin-left: 50px;
+}
+
+section .container .content .text-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+section .container .content .text-box p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.25px;
+}
+
+/* ==== SECTION 02 ==== */
+
+section .container .content .media-info {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+section .container .content .media-info li:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+section .container .content .media-info li:nth-child(1), .media-info li:nth-child(5){
+    padding-left: 100px;
+}
+
+section .container .content .media-info li:nth-child(2), .media-info li:nth-child(4) {
+    padding-left: 50px;
+}
+
+section .container .content .media-info li a {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+section .container .content .media-info li a i {
+    margin-right: 10px;
+}
